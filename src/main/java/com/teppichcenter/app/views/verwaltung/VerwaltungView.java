@@ -28,8 +28,9 @@ public class VerwaltungView extends Composite<VerticalLayout> {
     }
 
     private void setTabSheetSampleData(TabSheet tabSheet) {
-        tabSheet.add("Dashboard", new Div(new Text("This is the Dashboard tab content")));
-        tabSheet.add("Payment", new Div(new Text("This is the Payment tab content")));
-        tabSheet.add("Shipping", new Div(new Text("This is the Shipping tab content")));
+        tabSheet.add("Warenbestand", new Div(new Text("This is the Dashboard tab content")));
+        tabSheet.add("Eingänge erfassen", new Div(new Text("This is the Payment tab content")));
+        tabSheet.add("Ausgänge erfassen", new Div(new Text("This is the Shipping tab content")));
+        tabSheet.add("Transfer", new Div(new Text("This is the Shipping tab content")));
     }
 }

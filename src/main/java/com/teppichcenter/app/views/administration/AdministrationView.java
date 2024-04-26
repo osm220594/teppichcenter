@@ -30,8 +30,9 @@ public class AdministrationView extends Composite<VerticalLayout> {
     }
 
     private void setTabSheetSampleData(TabSheet tabSheet) {
-        tabSheet.add("Dashboard", new Div(new Text("This is the Dashboard tab content")));
-        tabSheet.add("Payment", new Div(new Text("This is the Payment tab content")));
-        tabSheet.add("Shipping", new Div(new Text("This is the Shipping tab content")));
+        tabSheet.add("Lagerverwaltung", new Div(new Text("This is the Dashboard tab content")));
+        tabSheet.add("Benutzerverwaltung", new Div(new Text("This is the Payment tab content")));
+        tabSheet.add("Produktverwaltung", new Div(new Text("This is the Shipping tab content")));
+        tabSheet.add("Design", new Div(new Text("This is the Shipping tab content")));
     }
 }
